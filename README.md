@@ -18,11 +18,11 @@
 
 **主界面输入城市的名称**
 
-![呼入电话](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224858.jpg?raw=true)
+![主界面输入城市的名称](https://github.com/2564800726/Weather/blob/master/img/Screenshot_20181221-190155.jpg?raw=true)
 <br>
 <br>
 **城市的详细天气情况**
 <br>
 <br>
-![删除一个Item](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224904.jpg?raw=true)
+![城市的详细天气情况](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224904.jpg?raw=true)
 <br>
