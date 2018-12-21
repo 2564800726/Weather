@@ -23,7 +23,6 @@ public class CityActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LocationWeather.clearData();
                 finish();
             }
         });

@@ -11,7 +11,7 @@
         android:textSize="15sp"
         android:textColor="@color/colorWhite"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_fx"
         app:layout_constraintLeft_toLeftOf="parent"/>
     <ImageView
         android:id="@+id/iv_type"
@@ -19,8 +19,8 @@
         android:layout_height="30dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toTopOf="@id/tv_forecast_date"
+        app:layout_constraintBottom_toBottomOf="@id/tv_forecast_date"/>
     <TextView
         android:id="@+id/tv_forecast_high"
         android:layout_width="wrap_content"
@@ -29,8 +29,8 @@
         android:textColor="@color/colorWhite"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/tv_forecast_low"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_forecast_date"
+        app:layout_constraintBottom_toBottomOf="@id/tv_forecast_date"
         app:layout_constraintHorizontal_bias="1"/>
     <TextView
         android:layout_width="wrap_content"
@@ -38,8 +38,34 @@
         android:id="@+id/tv_forecast_low"
         android:textSize="15sp"
         android:textColor="@color/colorGray"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_forecast_date"
+        app:layout_constraintBottom_toBottomOf="@id/tv_forecast_date"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:id="@+id/tv_fx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forecast_date"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_fl"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forecast_date"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/tv_type"/>
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:id="@+id/tv_forecast_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@id/tv_forecast_date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 </android.support.constraint.ConstraintLayout>
