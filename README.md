@@ -24,5 +24,5 @@
 **城市的详细天气情况**
 <br>
 <br>
-![城市的详细天气情况](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224904.jpg?raw=true)
+![城市的详细天气情况](https://github.com/2564800726/Weather/blob/master/img/Screenshot_20181221-190221.jpg?raw=true)
 <br>
